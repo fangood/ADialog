@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="yellow">#ffea00</color>
+    <color name="green">#00ff00</color>
+    <color name="white">#ffffff</color>
+    <color name="shallowGray">#CCCCCC</color>
+    <color name="textGreenColor">#666666</color>
+    <color name="textBlackColor">#333333</color>
+    <color name="buttonColor">#02ab82</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="loading_color">#02AA81</color>
+
+</resources>
