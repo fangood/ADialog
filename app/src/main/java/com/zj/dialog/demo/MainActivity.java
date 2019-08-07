@@ -3,6 +3,7 @@ package com.zj.dialog.demo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
 import com.zj.dialog.QKDialog;
 import com.zj.dialog.QKLoadDialog;
 
@@ -143,12 +144,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void showButtonStyle6() {
-        new QKLoadDialog(MainActivity.this).builder().setTips("加载中...").show();
+        new QKLoadDialog(MainActivity.this).builder().setTips("加载中...").setCanceledOnTouchOutside(true).show();
     }
 
     private void showButtonStyle8() {
         new QKLoadDialog(MainActivity.this).builder()
                 .setTips("上传中...")
+                .setCanceledOnTouchOutside(true)
                 .setTipsTextSize(R.dimen.content_text_size_18)
                 .setTipsTextColor(R.color.yellow)
                 .setBarColor(R.color.green)
@@ -166,6 +168,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .setMsgColor(R.color.actionsheet_blue)
                 .setPositiveButtonColor(R.color.black)
                 .setPositiveButtonSize(R.dimen.content_text_size_12)
+                .setCanceledOnTouchOutside(true)
                 .setPositiveButton(null, new View.OnClickListener() {
 
                     @Override
