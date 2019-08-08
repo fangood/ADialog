@@ -24,23 +24,27 @@ Step 2. Add the dependency
 	}  
 	
 ### maven  
+```
 <repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
-	</repositories>Copy
-Step 2. Add the dependency  
+	</repositories>
+```
+Step 2. Add the dependency 
+``` 
 <dependency>
 	    <groupId>com.github.fangood</groupId>
 	    <artifactId>ADialog</artifactId>
 	    <version>1.0.0.0</version>
 	</dependency>
+```
 
 	
 	
 	
-效果图
+## 效果图
 -------
 ![效果图](/images/image1.jpg)  
 
